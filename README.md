@@ -1,8 +1,8 @@
-# Face Mask Detector 😷
+# Face Mask Detector 
 
 A real-time Face Mask Detection system using Python, OpenCV, and Deep Learning (MobileNetV2). This application detects faces via webcam and classifies them as "Mask" or "No Mask" in real-time.
 
-## 🚀 Features
+##  Features
 - **Real-time Detection**: Uses webcam feed to detect faces instantly.
 - **Deep Learning Model**: powered by a pre-trained MobileNetV2 model tailored for mask detection.
 - **Visual Feedback**:
@@ -16,13 +16,13 @@ A real-time Face Mask Detection system using Python, OpenCV, and Deep Learning (
 - **Deep Learning**: TensorFlow / Keras
 - **Numerical Operations**: NumPy
 
-## 📂 Project Structure
+##  Project Structure
 - `webcam_mask_detection.py`: Main script to run the real-time detection.
 - `mask_detector_mobilenetv2.keras`: The trained deep learning model file.
 - `haarcascade_frontalface_default.xml`: Pre-trained Haar Cascade classifier for face detection.
 - `requirements.txt`: List of Python dependencies.
 
-## ⚙️ Installation
+##  Installation
 
 1. **Clone the Repository** (if applicable) or download the source code.
 
@@ -32,7 +32,7 @@ A real-time Face Mask Detection system using Python, OpenCV, and Deep Learning (
    pip install -r requirements.txt
    ```
 
-## ▶️ Usage
+##  Usage
 
 1. **Run the Application**
    Execute the following command in your terminal:
@@ -49,10 +49,10 @@ A real-time Face Mask Detection system using Python, OpenCV, and Deep Learning (
 3. **Quit**
    - Press **`q`** on your keyboard or close the window to stop the application.
 
-## ⚠️ Troubleshooting
+##  Troubleshooting
 - **Webcam not working?** Ensure no other application is using the camera.
 - **Model not found?** Make sure `mask_detector_mobilenetv2.keras` is in the same directory as the script.
 - **Haar Cascade error?** Verify `haarcascade_frontalface_default.xml` exists in the folder.
 
 ---
-*Stay Safe! wear a mask.* 😷
+*Stay Safe! wear a mask.* 
